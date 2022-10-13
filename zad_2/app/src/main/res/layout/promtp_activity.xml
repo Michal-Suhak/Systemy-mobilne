@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PromptActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/answer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:translationX="360px"
+            android:translationY="1000px"
+            tools:ignore="MissingConstraints"
+            tools:text="Odpowiedź" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="308dp"
+            android:layout_height="62dp"
+            android:padding="15dp"
+            android:translationX="150px"
+            android:translationY="500px"
+            tools:ignorec="MissingConstraints"
+            android:text="Czy na pewno chcesz zobaczyć podpowiedź?" />
+
+        <Button
+            android:id="@+id/show_answer_button"
+            android:layout_width="308dp"
+            android:layout_height="62dp"
+            android:padding="15dp"
+            android:translationX="150px"
+            android:text="Pokaż podpowiedź"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:translationX="400px"
+            android:translationY="800px"
+            android:text="Powrót" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

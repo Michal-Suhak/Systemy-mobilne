@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 currentIndex = (currentIndex + 1)%questions.length;
+                answerWasShown = false;
                 setNextQuestion();
             }
         });
