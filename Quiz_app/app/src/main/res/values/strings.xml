@@ -10,5 +10,4 @@
     <string name="q_strings_file">Czy pole ze stałymi nazywa się "consts.xml"</string>
     <string name="correct_answer">Dobrze</string>
     <string name="incorrect_answer">Źle</string>
-    <string name="answer_was_shown">Wyświetlono podpowiedź</string>
 </resources>
