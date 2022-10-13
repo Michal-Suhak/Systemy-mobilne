@@ -1,0 +1,14 @@
+
+m	java:S116"SRename this field "QUIZ_TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éí¹ûÿÿÿÿ
+p
+java:S1450"ZRemove the "falseButton" field and declare it as a local variable in the relevant methods.(Ôœ
+t
+java:S1450"YRemove the "nextButton" field and declare it as a local variable in the relevant methods.(º€ü‰ùÿÿÿÿ
+v
+java:S1450"[Remove the "promptButton" field and declare it as a local variable in the relevant methods.(Â€ªƒÿÿÿÿÿ
+t
+java:S1450"YRemove the "trueButton" field and declare it as a local variable in the relevant methods.(Ãş×Äüÿÿÿÿ
+Q
+java:S2696e"6Make the enclosing method "static" or remove this set.(úË¾Ìüÿÿÿÿ
+M
+java:S2696€"6Make the enclosing method "static" or remove this set.(Ú´Î§

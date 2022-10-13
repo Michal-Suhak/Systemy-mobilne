@@ -1,0 +1,27 @@
+Logi przed dodaniem metody onSaveInstanceState
+Instancja aplikacji po obróceniu telefonu jest niszczona a następnie ponownie uruchamiana w orientacji poziomej. Po obróceniu aplikacja uruchamia się na pierwszym pytaniu.
+
+2022-10-13 10:14:32.083 10179-10179/com.example.quiz_app D/quiz_tag: Wywołana została metoda cyklu życia: onCreate
+2022-10-13 10:14:32.166 10179-10179/com.example.quiz_app D/quiz_tag: Pierwsze uruchomienie
+2022-10-13 10:14:32.168 10179-10179/com.example.quiz_app D/quiz_tag: Ponownie uruchomiono aplikacje
+2022-10-13 10:14:38.116 10179-10179/com.example.quiz_app D/quiz_tag: Zatrzymanon aplikacje
+2022-10-13 10:14:38.117 10179-10179/com.example.quiz_app D/quiz_tag: Wyłączono aplikacje
+2022-10-13 10:14:38.119 10179-10179/com.example.quiz_app D/quiz_tag: Zniszono aplikacje
+2022-10-13 10:14:38.158 10179-10179/com.example.quiz_app D/quiz_tag: Wywołana została metoda cyklu życia: onCreate
+2022-10-13 10:14:38.193 10179-10179/com.example.quiz_app D/quiz_tag: Pierwsze uruchomienie
+2022-10-13 10:14:38.194 10179-10179/com.example.quiz_app D/quiz_tag: Ponownie uruchomiono aplikacje
+
+Po dodaniu metody onSaveInstanceState() aplikacja zapisuje stan aplikacji i po obróceniu wyświetlane jest te same pytanie.
+
+2022-10-13 10:16:29.945 10388-10388/com.example.quiz_app D/quiz_tag: Wywołana została metoda cyklu życia: onCreate
+2022-10-13 10:16:30.035 10388-10388/com.example.quiz_app D/quiz_tag: Pierwsze uruchomienie
+2022-10-13 10:16:30.037 10388-10388/com.example.quiz_app D/quiz_tag: Ponownie uruchomiono aplikacje
+2022-10-13 10:16:40.365 10388-10388/com.example.quiz_app D/quiz_tag: Zatrzymanon aplikacje
+2022-10-13 10:16:40.368 10388-10388/com.example.quiz_app D/quiz_tag: Wyłączono aplikacje
+2022-10-13 10:16:40.369 10388-10388/com.example.quiz_app D/quiz_tag: Wywołana została metoda: onSaveInstanceState
+2022-10-13 10:16:40.370 10388-10388/com.example.quiz_app D/quiz_tag: Zniszono aplikacje
+2022-10-13 10:16:40.400 10388-10388/com.example.quiz_app D/quiz_tag: Wywołana została metoda cyklu życia: onCreate
+2022-10-13 10:16:40.442 10388-10388/com.example.quiz_app D/quiz_tag: Pierwsze uruchomienie
+2022-10-13 10:16:40.443 10388-10388/com.example.quiz_app D/quiz_tag: Ponownie uruchomiono aplikacje
+
+
