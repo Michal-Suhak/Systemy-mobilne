@@ -141,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 resultMessageId = R.string.incorrect_answer;
             }
-            Toast.makeText(this, resultMessageId, Toast.LENGTH_SHORT).show();
         }
         Toast.makeText(this, resultMessageId, Toast.LENGTH_SHORT).show();
     }
