@@ -43,18 +43,19 @@ public class TaskFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_task, container, false);
         if(container != null){
             EditText nameField = view.findViewById(R.id.task_name);
+            if (task != null) {
+                nameField.setText(task.getName());
+            }
 
             if(nameField != null){
                 nameField.addTextChangedListener(new TextWatcher() {
                     @Override
                     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
                     }
 
                     @Override
                     public void onTextChanged(CharSequence s, int start, int before, int count) {
                         task.setName(s.toString());
-
                     }
 
                     @Override
