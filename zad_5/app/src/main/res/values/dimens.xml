@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_margin">20dp</dimen>
+    <dimen name="item_padding">20dp</dimen>
+    <dimen name="item_font_size">16sp</dimen>
+    <dimen name="sensor_details_layout_margin">15dp</dimen>
+    <dimen name="sensor_details_font_title_size">25sp</dimen>
+    <dimen name="sensor_details_font_values_size">20sp</dimen>
+    <dimen name="sensor_details_height">90dp</dimen>
+    <dimen name="sensor_details_layout_margin_top">10dp</dimen>
+    <dimen name="localization_margins">10dp</dimen>
+    <dimen name="localizatino_subtab_margin_top">350dp</dimen>
+</resources>

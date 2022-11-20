@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="@dimen/element_height"
     android:orientation="vertical"
     app:layoutDescription="@xml/list_item_task_scene">
 
@@ -22,6 +22,8 @@
         android:id="@+id/task_item_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
         android:layout_marginTop="@dimen/margin_20"
         android:textColor="@color/black" />
 

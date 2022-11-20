@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_sensor"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="@dimen/item_padding" >
+
+    <ImageView
+        android:id="@+id/sensor_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/image_margin"
+        android:src="@drawable/sensor"/>
+
+    <TextView
+        android:id="@+id/sensor_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/sensor_icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="@dimen/item_font_size" />
+
+</RelativeLayout>
