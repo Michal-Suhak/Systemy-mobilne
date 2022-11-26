@@ -86,7 +86,7 @@ public class LocationActivity extends AppCompatActivity {
         }
     }
 
-    private String locationGecoding(Context context, Location location){
+    private String locationGeocoding(Context context, Location location){
         Geocoder geocoder = new Geocoder(context, Locale.getDefault());
         List<Address> addresses = null;
         String resultMessage = "";
@@ -120,7 +120,7 @@ public class LocationActivity extends AppCompatActivity {
     private void executeGeocoding(){
         if(lastLocation != null){
             ExecutorService executor = Executors.newSingleThreadExecutor();
-            Future<String> returnedAddress = executor.submit(()->locationGecoding(getApplicationContext(),lastLocation));
+            Future<String> returnedAddress = executor.submit(()->locationGeocoding(getApplicationContext(),lastLocation));
             try{
                 String result = returnedAddress.get();
                 addressTextView.setText(getString(R.string.address_text, result, System.currentTimeMillis()));
