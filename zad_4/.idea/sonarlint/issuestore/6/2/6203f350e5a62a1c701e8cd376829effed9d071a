@@ -1,0 +1,13 @@
+
+_
+java:S2259b"BA "NullPointerException" could be thrown; "task" is nullable here.(—ûä«8ËÂüŒÇ0
+{
+java:S1450!"^Remove the "categorySpinner" field and declare it as a local variable in the relevant methods.(É¿«©8õ¸¹Ç0
+—
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+œ
+java:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+G
+java:S1602g",Remove useless curly braces around statement(ìÑÔÿÿÿÿÿ
+£
+java:S1186v"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8¤Î¸Ç0

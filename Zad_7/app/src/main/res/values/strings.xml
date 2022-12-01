@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zad_7</string>
+    <string name="image_alt_text">Book Cover</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="fail_message">Something went wrong</string>
+    <string name="title">Title:  </string>
+    <string name="author">Author:  </string>
+    <string name="pages_number">Number of pages:  </string>
+    <string name="year_published">Year published:  </string>
+    <string name="languages">Available languages:  </string>
+    <string name="ebook_access">Ebook access:  </string>
+</resources>

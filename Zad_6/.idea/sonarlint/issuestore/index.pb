@@ -5,6 +5,8 @@
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 ]
 -app/src/main/java/com/example/zad_6/Book.java,f/8/f8782fed3e02eba16fb3fc7d3e4d2e3b0e32e289
+e
+5app/src/main/java/com/example/zad_6/MainActivity.java,b/d/bd6801852f62a00f5de8053b8e80c1d9ea64d2c1
 i
 9app/src/main/java/com/example/zad_6/EditBookActivity.java,a/f/afc9f754b286faa1a39add37127d45e026a9570f
 f
@@ -19,5 +21,3 @@ f
 6app/src/main/java/com/example/zad_6/BookViewModel.java,6/8/68964fc3606eabb686eff0b0172b6921755933c9
 `
 0app/src/main/java/com/example/zad_6/BookDao.java,3/3/336b7214172760fe08d6ce4ac6360e7fde79832e
-e
-5app/src/main/java/com/example/zad_6/MainActivity.java,b/d/bd6801852f62a00f5de8053b8e80c1d9ea64d2c1

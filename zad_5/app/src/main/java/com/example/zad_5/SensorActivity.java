@@ -2,11 +2,6 @@ package com.example.zad_5;
 
 import static com.example.zad_5.SensorDetailsActivity.EXTRA_SENSOR_TYPE_PARAMETER;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
@@ -22,7 +17,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Arrays;
 import java.util.List;
@@ -145,7 +143,7 @@ public class SensorActivity extends AppCompatActivity {
         }
 
         @Override
-        public int getItemCount() {
+        public int getItemCzount() {
             return sensorList.size();
         }
     }
