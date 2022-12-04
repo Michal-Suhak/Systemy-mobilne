@@ -25,6 +25,7 @@ import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -58,6 +59,13 @@ public class MainActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String s) {
                 return false;
             }
+        });
+
+        MenuItem clearItem = menu.findItem(R.id.menu_item_clear);
+        clearItem.setOnMenuItemClickListener(v->{
+            searchView.setQuery("", false);
+            setupBookListView(new ArrayList<Book>());
+            return true;
         });
 
         return super.onCreateOptionsMenu(menu);
